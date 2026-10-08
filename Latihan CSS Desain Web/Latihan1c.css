@@ -1,0 +1,18 @@
+/* Komponen tombol dengan animasi CSS 3 */
+.btn-animated {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efek saat kursor diarahkan (hover) */
+.btn-animated:hover {
+    background-color: #c0392b;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

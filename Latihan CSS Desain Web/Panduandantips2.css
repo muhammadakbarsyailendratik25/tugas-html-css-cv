@@ -1,0 +1,6 @@
+/* Warna yang diperoleh dari eksperimen Color Picker di Inspect Element */
+.card-header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+}

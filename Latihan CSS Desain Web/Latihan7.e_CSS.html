@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Spacing</title>
+    <style>
+        h1 {
+            letter-spaccing: -1px; /* Merapatkan jarak antar huruf */
+            word-spacing: 4px;  /* Merenggangkan jarak antar kata */
+            font-family: Arial, sans-serif;
+            color: #2c3e50;
+        }
+
+        .small-caps-spacing {
+            font-size: 12px;
+            letter-spacing: 2px; /* Jarak huruf renggang untuk estetika teks kecil */
+            text-transform: uppercase;
+            color: #7f8c8d;
+        }
+
+        .indent-paragraph {
+            text-indent: 2em; /* Baris pertama masuk ke dalam sejauh 2em (32px) */
+            line-height: 1.6px; /* Jarak antar baris yang nyaman dibaca */
+            font-family: Georgia, serif;
+        }
+
+        .nowrap-demo {
+            white-space: break-spaces; /* Mempertahankan spasi bawaan HTML */
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Judul dengan Pengaturan Spasi Huruf dan Kata</h1>
+
+    <p class="small-caps-spacing">Subjudul Kecil dengan Renggang Karakter</p>
+
+    <p class="indent-paragraph">
+        Ini adalah contoh paragraf yang menerapkan <i>text-indent: 2em<i>. Baris paling pertama pada paragraf ini akan menjorok masuk ke dalam sejauh 2em (setara 32px), menciptakan tampilan khas penulisan buku atau artikel formal. penggunaan <i>line-height: 1.6</i> memastikan jarak antarbaris memiliki cukup ruang bernapas agar pembaca tidak cepat lelah.
+    </p>
+
+    <p class="nowrap-demo">
+        Paragraf ini menggunakan white-space: break-spaces, sehingga spasi berganda dan perpindahan baris di HTML akan ditampilkan sesuai bentuk aslinya.
+    </p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Selektor CSS</title>
+    <style>
+        /* 1. Selektor Tag: Mengatur semua judul h2 */
+        h2 {
+            color: 2c3e50;
+            font-family: Arial, sans-serif;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        /* 2. Selektor Kelas: Mengatur elemen dengan
+        class="highligth" */
+        .highlight {
+            background-color #f1c40f;
+            color: #2c3e50;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        /* 3. Selektor ID: Mengatur elemen tunggal dengan id="header-utama" */
+        #header-utama {
+            background-color: #34495e;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* 4. Selektor Atribut: Mengatur input teks spesifik */
+        input[type="text"] {
+            border: 1px solid #bdc3c7;
+            padding: 8px;
+            border-radius: 4px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-utama">
+        <h1>Header Utama Website</h1>
+        </div>
+
+        <h2>Penggunaan Selektor dalam CSS</h2>
+        <p>Ini adalah paragraf biasa dengan <span class="highlight">teks yang disorot</span> menggunakan selektor kelas.</p>
+
+        <form>
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama"
+    placeholder="Masukkan nama Anda...">
+    </form>
+</body>
+</html>

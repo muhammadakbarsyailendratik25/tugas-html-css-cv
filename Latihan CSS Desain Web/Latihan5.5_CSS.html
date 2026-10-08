@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Gradasi pada Teks</title>
+    <style>
+        .text-gradient {
+            font-family: Arial, sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+
+            /* Mengaplikasikan gradasi linear pada latar belakang
+*/
+background: linear-gradient(90 deg, rgba(34, 193, 195, 1)) 0%, rgba(240, 45, 253, 1) 100);
+
+/* Memotong latar belakang mengikuti bentuk karakter teks 
+
+-webkit-background-clip: text;
+
+/* Membuat warna teks bawaan menjadi transparan */
+-webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-gradient">Teks Judul dengan Warna Gradasi
+        Modern</h1>
+</body>
+</html>

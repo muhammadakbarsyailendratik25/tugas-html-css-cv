@@ -1,0 +1,267 @@
+    /* =========================
+    RESET DASAR
+    ========================= */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f8fafc;
+        color: #1e293b;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+    HEADER / PROFIL
+    ========================= */
+
+    header {
+        background: #1e293b;
+        color: #ffffff;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    header p {
+        font-size: 15px;
+        color: #94a3b8;
+        margin-bottom: 20px;
+    }
+
+
+    /* =========================
+    TOMBOL DOWNLOAD CV
+    ========================= */
+
+    header button {
+        background: #2563eb;
+        color: #ffffff;
+        border: none;
+        padding: 10px 22px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+    header button:hover {
+        background: #1d4ed8;
+    }
+
+
+    /* =========================
+    NAVIGASI
+    ========================= */
+
+    nav {
+        background: #ffffff;
+        padding: 12px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    nav a {
+        color: #475569;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 10px;
+        transition: color 0.2s;
+    }
+
+    nav a:hover {
+        color: #2563eb;
+    }
+
+
+    /* =========================
+    SECTION
+    ========================= */
+
+    section {
+        max-width: 900px;
+        margin: 25px auto;
+        padding: 30px;
+        background: #ffffff;
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+    }
+
+    section h2 {
+        color: #0f172a;
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #2563eb;
+    }
+
+
+    /* =========================
+    TENTANG SAYA
+    ========================= */
+
+    #tentang p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+
+    /* =========================
+    PENDIDIKAN
+    ========================= */
+
+    #pendidikan ul {
+        list-style: none;
+    }
+
+    #pendidikan li {
+        background: #f1f5f9;
+        padding: 12px 15px;
+        margin: 8px 0;
+        border-left: 4px solid #2563eb;
+        border-radius: 4px;
+    }
+
+
+    /* =========================
+    KEAHLIAN
+    ========================= */
+
+    #keahlian ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        list-style: none;
+    }
+
+    #keahlian li {
+        background: #f1f5f9;
+        padding: 12px;
+        border-radius: 6px;
+        color: #1e293b;
+        font-weight: bold;
+        border: 1px solid #e2e8f0;
+    }
+
+
+    /* =========================
+    PENGALAMAN
+    ========================= */
+
+    #pengalaman h3 {
+        color: #2563eb;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    #pengalaman h3:first-of-type {
+        margin-top: 0;
+    }
+
+    #pengalaman p {
+        background: #f8fafc;
+        padding: 12px;
+        border-left: 3px solid #64748b;
+        border-radius: 4px;
+    }
+
+
+    /* =========================
+    KONTAK
+    ========================= */
+
+    #kontak p {
+        margin: 8px 0;
+        padding: 10px 12px;
+        background: #f8fafc;
+        border-radius: 6px;
+    }
+
+    #kontak a {
+        color: #2563eb;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #kontak a:hover {
+        text-decoration: underline;
+    }
+
+
+    /* =========================
+    FOOTER
+    ========================= */
+
+    footer {
+        background: #0f172a;
+        color: #94a3b8;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+
+    /* =========================
+    RESPONSIVE / HP
+    ========================= */
+
+    @media (max-width: 768px) {
+
+        header {
+            padding: 35px 15px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        header p {
+            font-size: 14px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 4px 6px;
+            font-size: 13px;
+        }
+
+        section {
+            margin: 15px;
+            padding: 20px;
+        }
+
+        #keahlian ul {
+            grid-template-columns: 1fr;
+        }
+    }

@@ -1,0 +1,16 @@
+/* Notasi seragam berbasis Heksadesimal untuk konsistensu berkas */
+:root {
+    --primary-color: #3498db;
+    --text-color: #2c3e50;
+    --bg-color: #f8f9fa;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}

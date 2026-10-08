@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Internal CSS</title>
+    <!-- Penulisan aturan CSS internal di dalam tag head -->
+     <style>
+        p {
+            font-family: Georgia, serif;
+            line-height: 1.8;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        i {
+            font-family: sans-serif;
+            color: #e67e22;
+            font-weight: bold;
+        }
+        </style>
+</head>
+<body>
+    <!-- Penulisan aturan CSS internal di dalam tag body -->
+     <style>
+        h2 {
+            font-family: Arial, sans-serif;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+
+        </style>
+
+        <h2>Implementasi Internal CSS</h2>
+        <p>Ini adalah contoh paragraf yang memuat isi artikel untuk mendemostrasikan <i>internal CSS</i>. Semua aturan gaya didefinisikan langsung di dalam berkas HTML yang sama</p>
+</body>
+</html>

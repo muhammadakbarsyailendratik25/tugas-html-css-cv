@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Pseudo-element</title>
+    <style>
+        p {
+            font-family: Georgia, serif;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #2c3e50;
+        }
+
+        /* Pseudo-element  ::first-line menargetkan hanya baris pertama paragraf */
+        p::fisrt-line {
+            color: #e91e63;
+            font-weight: bold;
+        }
+        </style>
+</head>
+<body>
+    <p>
+        Ini adalah paragraf yang cukup panjang. Sengaja dibuat
+        panjang agar dapat dipakai sebagai contoh nyata penggunaan 
+        selektor pseudo-element pada CSS. Pseudo-element memungkinkan \
+        kita memberikan gaya pada bagian spesifik tanpa perlu
+        menambahkan tag tambahan seperti span di dalam HTML.
+    </p>
+</body>
+</html>
